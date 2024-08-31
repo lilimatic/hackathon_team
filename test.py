@@ -13,6 +13,8 @@ class BlackLittermanPortfolio(QCAlgorithm):
         self.SetEndDate(2024, 1, 1)
         self.SetCash(100000)
 
+        #Add
+        #Corporate bonds
         self.AddEquity("SPY", Resolution.Daily)
         self.SetBenchmark("SPY")
 
